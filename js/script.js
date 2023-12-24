@@ -130,23 +130,7 @@ function initOverlayout() {
 	});
 }
 
-// 配置公众号资料
-function initQRCode() {
-	// 移动端显示二维码, pc端鼠标悬浮会有二维码
-	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-		console.log("移动端");
-	} else {
-		console.log("pc端");
-		$('#logo').on("mouseenter", function(){
-			console.log("logo被触碰!");
-			$('.logo-QR').fadeToggle(300);
-		});
-		$('#logo').on("mouseleave", function(){
-			console.log("logo触碰结束!");
-			$('.logo-QR').fadeToggle(300);
-		});
-	}
-}
+
 
 // 进行布局初始化, 加载第一波image和初始化瀑布流插件
 $(function() {
