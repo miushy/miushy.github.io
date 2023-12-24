@@ -1,10 +1,3 @@
-/*!
- * artonweb的核心逻辑.
- * 包括使用数据类生成内容标签的方法,瀑布流生成,探底数据刷新和看图浮层配置.
- * 本项目使用了jquery,masonry,imagesloaded,photoswipe和FileSaver开源项目.
- * MIT License
- * by bingxueling | UIDesignScience
-*/
 
 
 // 获取屏幕信息, 初始化图库索引及图片数
@@ -184,8 +177,7 @@ $(function() {
 	scrollbarWidth = screenWidth - pageWidth;
 	$('#log').append(`<h2>屏幕宽: ${screenWidth}, 页面宽: ${pageWidth}</h2>`);
 
-	// 如果你不希望显示公众号浮层,可以注释掉这句
-	initQRCode();
+
 
 	// 配置原图查看功能
 	initOverlayout();
