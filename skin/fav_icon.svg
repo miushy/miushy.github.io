@@ -1,9 +1,8 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_70_24045)">
-<rect width="60" height="60" fill="#6E0E9B"/>
-<rect x="7" width="12" height="60" fill="#A6FCD3"/>
-<rect x="63.9614" y="-7" width="12" height="60" transform="rotate(60 63.9614 -7)" fill="#A6FCD3"/>
-<rect x="70.3921" y="67.9615" width="12" height="60" transform="rotate(150 70.3921 67.9615)" fill="#A6FCD3"/>
+<rect x="7" width="12" height="60" fill="#FFAF8E"/>
+<rect x="63.9614" y="-7" width="12" height="60" transform="rotate(60 63.9614 -7)" fill="#FFAF8E"/>
+<rect x="70.3921" y="67.9615" width="12" height="60" transform="rotate(150 70.3921 67.9615)" fill="#FFAF8E"/>
 </g>
 <defs>
 <clipPath id="clip0_70_24045">
